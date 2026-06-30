@@ -4,7 +4,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Construction
 import androidx.compose.material.icons.filled.Dashboard
-import androidx.compose.material.icons.filled.KitchenOutlined
+import androidx.compose.material.icons.outlined.Kitchen
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
@@ -64,7 +64,7 @@ fun PantryNavHost() {
 
     val tabs = listOf(
         BottomTab("Dashboard", Icons.Default.Dashboard, Screen.Dashboard),
-        BottomTab("Food", Icons.Default.KitchenOutlined, Screen.FoodList),
+        BottomTab("Food", Icons.Outlined.Kitchen, Screen.FoodList),
         BottomTab("Tools", Icons.Default.Construction, Screen.ToolsList)
     )
 
